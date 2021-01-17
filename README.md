@@ -18,7 +18,7 @@ npm start</pre>
 <p>A example of the functionality of Novel:</p>
 <pre>
 const HelloComponent = () => {
-    return <h1>Welcome to Novel</h1>;
+    return <div>Welcome to Novel</div>;
 }
 
 ReactDOM.render(<HelloComponent />, document.getElementById('root'));</pre>
