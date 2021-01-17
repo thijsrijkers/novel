@@ -1,51 +1,19 @@
-const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const CopyWebpackPlugin = require('copy-webpack-plugin')
+var path = require('path');
 
 module.exports = {
-    resolve:{
-        modules:[path.resolve(__dirname, 'src'), 'node_modules'],
-        extensions: ['.tsx', '.ts', '.jsx', '.js']
+    mode: 'development',
+    entry: path.join(__dirname, './index.jsx'),
+    output: {
+        path: __dirname,
+        filename: 'app.js'
     },
-    entry: ['./src/index.tsx'],
     module: {
         rules: [
             {
-                test: /\.ts[x]?$/,
+                test: /\.jsx/,
                 exclude: /node_modules/,
-                use: ['babel-loader']
-            },
-            {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader']
+                use: 'babel-loader'
             }
         ]
-    },
-    output: {
-        filename: '[name].js',
-        chunkFilename: '[name].js',
-        path: path.resolve(__dirname, 'dist'),
-        publicPath: '/'
-    },
-    devServer: {
-        contentBase: path.join(__dirname, 'public'),
-        hot: true,
-        inline: true,
-        historyApiFallback: true
-    },
-    plugins: [
-        new CopyWebpackPlugin({
-            patterns:[
-                {
-                    from: 'public',
-                    to: '.',
-                    ignore: ['README']
-                }
-            ]
-        }),
-        new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, 'public', 'index.html'),
-            filename: 'index.html'
-        })
-    ]
-};
+    }
+}
