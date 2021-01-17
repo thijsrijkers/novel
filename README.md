@@ -16,13 +16,16 @@ And after you have created a succesfull build you can use this for a quick peek 
 npm start</pre>
 <h2> Example</h2>
 <p>A example of the functionality of Novel:</p>
+
 ```
+
 const HelloComponent = () => {
     return <h1>Welcome to Novel</h1>;
 }
 
 ReactDOM.render(<HelloComponent />, document.getElementById('root'));
 ```
+
 <p>This example will render "Welcome to Novel" into a container on the page.</p>
 
 <p>If you're using Novel as a <script> tag, read this section on integrating JSX; otherwise, the recommended JavaScript toolchains handle it automatically.</p>
