@@ -14,7 +14,19 @@ npx webpack</pre>
 And after you have created a succesfull build you can use this for a quick peek at your website/app:
 <pre>
 npm start</pre>
+<h2> Example</h2>
+<p>A example of the functionality of Novel:</p>
+<pre>
+const HelloComponent = () => {
+    return <h1>Welcome to Novel</h1>;
+}
 
+ReactDOM.render(<HelloComponent />, document.getElementById('root'));</pre>
+
+<p>This example will render "Welcome to Novel" into a container on the page.</p>
+
+<p>If you're using Novel as a <script> tag, read this section on integrating JSX; otherwise, the recommended JavaScript toolchains handle it automatically.</p>
+ 
 <h2> Supported</h2>
  <p>All languages down below is supported from Novel. We want to give the user/developer as easy time as possible so we want to document the languages that were are supporting in Novel atm and we also want to give you a idea what were planning ahead in the future.</p>
  <h4> Workable</h4>
