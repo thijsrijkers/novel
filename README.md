@@ -7,4 +7,10 @@
 <p>You can pull this repository get the newest version (but this is maybe not the stable variant). You also can install our NPM package:
 <pre>
 npm i novelapp</pre>
-
+<br>
+After you created your project with Novel you can start building your app. If you made changes and you want to check if everything is still working, we advise:
+<pre>
+npx webpack</pre>
+And after you have created a succesfull build you can use this for a quick peek at your website/app:
+<pre>
+npm start</pre>
