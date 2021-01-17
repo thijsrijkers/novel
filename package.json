@@ -1,6 +1,6 @@
 {
   "name": "novelapp",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "babel-loader": "^8.2.2",
+    "fuschiascript": "0.0.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "webpack": "^5.15.0",
