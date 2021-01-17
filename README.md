@@ -17,8 +17,7 @@ npm start</pre>
 <h2> Example</h2>
 <p>A example of the functionality of Novel:</p>
 
-```
-
+```jsx
 const HelloComponent = () => {
     return <h1>Welcome to Novel</h1>;
 }
