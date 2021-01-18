@@ -32,7 +32,7 @@ ReactDOM.render(<HelloComponent />, document.getElementById('root'));
 <h2> Supported</h2>
  <p>All languages down below is supported from Novel. We want to give the user/developer as easy time as possible so we want to document the languages that were are supporting in Novel atm and we also want to give you a idea what were planning ahead in the future.</p>
  <h4> Workable</h4>
-   <li>Typescript</li>
-   <li>Javascript</li></ul>
+        <li>Typescript</li>
+        <li>Javascript</li></ul>
  <h4> Workable in the future</h4>
-   <li>PHP</li></ul>
+        <li>PHP</li></ul>
