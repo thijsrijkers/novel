@@ -29,7 +29,25 @@ ReactDOM.render(<HelloComponent />, document.getElementById('root'));
 
 <p>If you're using Novel as a <script> tag, read this section on integrating JSX; otherwise, the recommended JavaScript toolchains handle it automatically.</p>
  
+<h2> Documentation</h2>
+<table>
+<thead>
+<tr>
+<th>Process</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+ 
+<tr>
+<td>HelloComponent()</td>
+<td>Sets a H1 with a welcome message to Novel</td>
+</tr>
+ 
+</tbody>
+</table>
 <h2> Supported</h2>
+
  <p>All languages down below is supported from Novel. We want to give the user/developer as easy time as possible so we want to document the languages that were are supporting in Novel atm and we also want to give you a idea what were planning ahead in the future.</p>
  <h4> Workable</h4>
         <li>Typescript</li>
