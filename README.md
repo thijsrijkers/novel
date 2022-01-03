@@ -26,6 +26,4 @@ ReactDOM.render(<HelloComponent />, document.getElementById('root'));
 ```
 
 <p>This example will render "Welcome to Novel" into a container on the page.</p>
-
-<p>If you're using Novel as a <script> tag, read this section on integrating JSX; otherwise, the recommended JavaScript toolchains handle it automatically.</p>
  
