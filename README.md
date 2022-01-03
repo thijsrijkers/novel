@@ -1,7 +1,7 @@
  <p align="center"><img src="https://i.imgur.com/61ZghpN.png" width="155" height="85"> </p>
 <h1 align="center"> Novel </h1>
 <br>
-<p align="center">Novel is an Typescript library used for designing user interfaces.</p>
+<p align="center">Novel is an quick-and-dirty framework used for designing user interfaces.</p>
 <br>
 <h2> Installation</h2>
 <p>You can pull this repository get the newest version (but this is maybe not the stable variant). You also can install our NPM package:
